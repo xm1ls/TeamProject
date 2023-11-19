@@ -1,27 +1,39 @@
 .how-we-work {
-    padding: 50px 0;
     position: relative;
 }
 
-.how-we-work__background {
+.how-we-work::after {
+    content: "";
     position: absolute;
     top: 0;
-    bottom: 0;
     right: 0;
-    width: 55.6%;
-    z-index: -1;
-    height: auto;
+    bottom: 0;
+    width: 50%;
     background-color: var(--accent-color);
+    z-index: -1;
 }
 
-
 .how-we-work__container {
-    padding: 0 16.64px;
+    position: relative;
+    padding: 50px 16.64px;
     max-width: 1185px;
     margin: 0 auto;
 }
 
+.how-we-work__background {
+    margin-left: 337px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: calc(100%-337px);
+    z-index: -1;
+    background-color: var(--accent-color);
+}
+
 .how-we-work__text {
+    position: relative;
     display: flex;
     margin-bottom: 50px;
     gap: 263px;
