@@ -15,9 +15,6 @@
 
 .how-we-work__container {
     position: relative;
-    padding: 50px 16.64px;
-    max-width: 1185px;
-    margin: 0 auto;
 }
 
 .how-we-work__background {
@@ -72,30 +69,11 @@
     margin-bottom: 50px;
 }
 
-.list__item {
+.list__item--how-we-work {
     border-radius: 10px;
 }
 
 .how-we-work__button {
     display: block;
     margin: 0 auto;
-    padding: 18px 38px;
-    border: none;
-    border-radius: 30px;
-    background-color: var(--button-color);
-    color: white;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 24px;
-    text-transform: uppercase;
-    transition: .3s;
-    cursor: pointer;
-}
-
-.how-we-work__button:hover,
-.how-we-work__button:focus {
-    box-shadow: inset 0 0 20px 5px rgba(255, 255, 255, 0.8);
 }

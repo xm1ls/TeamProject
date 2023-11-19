@@ -29,10 +29,33 @@ li {
     margin: 0;
 }
 
-ul {
+ul, ol {
     list-style-type: none;
 }
 
 img {
     display: block;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    background: var(--button-color);
+    text-transform: uppercase;
+    border: none;
+    padding: 18px 38px;
+    width: 195px;
+    transition: 300ms;
+}
+
+button:active {
+    box-shadow: inset 0 0 20px 5px rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    padding: 0 16.64px;
+    max-width: 1185px;
+    margin: 0 auto;
+    height: 100%;
 }
