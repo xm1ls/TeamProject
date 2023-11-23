@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    align-items: center;
+    /* align-items: center; */
     gap: 100px;     
 }
 
@@ -39,7 +39,6 @@
     border-radius: 61px;
     height: 56px;
     text-align: left;
-
     color: var(--background-footer-color);
     font-family: Poppins;
     padding-left: 30px;
@@ -54,6 +53,7 @@
 }
 
 .feedback-form__address {
+    margin-top: 34px;
     display: flex;
     flex-direction: column;
     gap: 33px;
@@ -62,6 +62,8 @@
 .address__email,
 .address__number,
 .address__location {
+    display: flex;
+    align-items: center;
     font-style: normal;
     text-decoration: none;
     color: var(--accent-color);
@@ -87,6 +89,4 @@
     font-weight: 900;
     text-transform: uppercase;
     line-height: 24px;
-    margin-left: 260.5px;
-    margin-top: 24px;
 }
