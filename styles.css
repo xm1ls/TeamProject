@@ -54,8 +54,8 @@ button:active {
 }
 
 .container {
-    padding: 0 16.64px;
-    max-width: 1185px;
+    padding: 0 15px;
+    max-width: 1230px;
     margin: 0 auto;
     height: 100%;
 }
