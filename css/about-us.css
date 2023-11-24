@@ -1,0 +1,62 @@
+.about-us {
+    background-color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.about-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: var(--accent-color);
+    z-index: -1;
+}
+
+.about-us__container {
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.about-us__background {
+    position: absolute;
+    background-color: var(--accent-color);
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-right: 356px;
+    width: calc(100% - 356px);
+}
+
+/* .about-us__info {} */
+
+.about-us__header {
+    color: white;
+    font-family: Sen;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+}
+.about-us__text {
+    margin-top: 50px;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.about-us__button {
+    margin-top: 42px;
+}
+
+/* .about-us__photo {} */
