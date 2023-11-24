@@ -20,13 +20,13 @@
 }
 
 .how-we-work__background {
-    margin-left: 337px;
+    margin-left: 367px;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    width: calc(100%-337px);
+    width: calc(100%-367px);
     z-index: -1;
     background-color: var(--accent-color);
 }
