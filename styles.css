@@ -46,6 +46,12 @@ button {
     border: none;
     padding: 18px 38px;
     width: 195px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
     transition: 300ms;
 }
 
@@ -55,6 +61,7 @@ button:active {
 
 .container {
     padding: 0 15px;
+    min-width: 1230px;
     max-width: 1230px;
     margin: 0 auto;
     height: 100%;
