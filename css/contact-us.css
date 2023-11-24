@@ -5,6 +5,7 @@
 .container--contact-us {
    padding-top: 50px;
    padding-bottom: 163px;
+   
 }
 
 
@@ -22,7 +23,6 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    /* align-items: center; */
     gap: 100px;     
 }
 
